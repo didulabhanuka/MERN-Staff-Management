@@ -1,0 +1,35 @@
+/* StaffDashboard.css */
+
+.nav-link {
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+}
+
+.nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.tab-pane {
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.tab-pane h2 {
+    margin-bottom: 20px;
+}
+
+.tab-pane p {
+    font-size: 16px;
+    line-height: 1.5;
+}
